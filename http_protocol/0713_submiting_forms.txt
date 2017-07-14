@@ -1,0 +1,26 @@
+telnet localhost 8080
+
+POST /session/new HTTP/1.1
+Host: hexlettesthost.com
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 30
+connection: close
+
+username=admin&password=secret
+
+
+<<< CHUNKED TRANSFER ENCODING >>>
+
+telnet httpwatch.com 80
+
+* Для отделения записей размеров чанков от их содержания используется разделитель CRLF
+ (как строка: «\r\n»; как байты в формате HEX: 0x0D, 0x0A).
+
+* Схематическое представление:
+<длина блока в HEX><CRLF><содержание блока><CRLF>
+
+* Последний блок строится по той же схеме:
+0<CRLF><CRLF>
+
+
+<<< ПЕРЕДАЧА ДАННЫХ QUERY STRING >>>
