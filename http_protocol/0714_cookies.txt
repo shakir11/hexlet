@@ -1,0 +1,22 @@
+
+GETTING RESPONSE WITH COOKIE:
+Example:
+curl --head https://ru.hexlet.io
+
+TYPES:
+  - session     - destroyed after closing browser
+  - persistent  - has expired time
+
+Cookie params:
+  - expires=Fri, 1 sep 2015   - for legacy browsers
+  - MAX-AGE=259200            - for new browsers (sec)
+  - domain=.hexlet.io         - works for domains below
+  - domain=hexlet.io          - does not work for domains below
+  - path=/                    - for all path below /
+  - HttpOnly                  - send cookie only in via HTTP only
+
+telnet localhost 8080
+
+HEAD /account HTTP/1.1
+HOST: hexlet.local
+COOKIE: name=user; secret=secret_hash

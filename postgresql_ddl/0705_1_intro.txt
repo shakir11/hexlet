@@ -1,0 +1,23 @@
+HISTORY:
+1986 - first specification SQL86
+
+SQL -   язык для управления данными
+        в произвольной реляц. БД
+
+DB management systems:
+- PostgreSQL      - free
+- Sqlite          - встраиваемая
+- MySQL (MariaDB, Percona)
+- MS-SQL          - MSoft
+- Oracle          -
+
+SQL PARTS:
+  - DDL - Data Definition Lang
+    * Creation DB structure
+  - DML - Data Manipulation Lang
+
+Installation:
+  - https://help.ubuntu.com/community/PostgreSQL
+
+  Open psql locally:
+    - sudo -u postgres psql

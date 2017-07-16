@@ -1,0 +1,7 @@
+
+COMMANDS:
+  \c db_name     - connect to db
+  \d table_name  - describe table
+
+RUNNING SCRIPTS:
+sudo -u postgres psql my_db < script.sql

@@ -1,0 +1,10 @@
+Представление (VIEW) —
+  объект базы данных, являющийся результатом выполнения запроса к базе данных,
+  определенного с помощью оператора SELECT,
+  в момент обращения к представлению
+
+https://habrahabr.ru/post/47031/
+http://postgresql.ru.net/manual/tutorial-views.html
+
+CREATE VIEW products_2 AS SELECT * FROM products;
+\d

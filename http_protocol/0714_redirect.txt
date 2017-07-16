@@ -1,0 +1,7 @@
+https://en.wikipedia.org/wiki/HTTP_301
+
+
+telnet hexlet.io 80
+
+GET / HTTP/1.1
+host: hexlet.io
