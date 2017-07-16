@@ -1,0 +1,11 @@
+https://en.wikipedia.org/wiki/Basic_access_authentication
+
+401 error
+
+<<AUTHENTICATION>>
+
+telnet localhost 8080
+
+GET /admin HTTP/1.1
+Host: hexlet.local
+Authorization: Basic QWxsYWRpbjpvcGVuIHNlc2FtZQ==
