@@ -1,0 +1,22 @@
+Агрегатные функции: http://postgresql.ru.net/manual/tutorial-agg.html
+
+category |   name    | count
+----------+-----------+-------
+ cars     | kia       |     1
+ games    | starcraft |     1
+ cars     | bmw       |     1
+ products | milk      |     1
+ products | butter    |     1
+ cars     | nissan    |     1
+
+SELECT category, name, count(price)
+FROM goods GROUP BY category, name
+
+SELECT category, name, count(price)
+FROM goods GROUP BY category, name
+HAVING count(price) > 1;
+
+
+WHERE - пре-сортировка
+
+HAVING - пост-сортировка (по группе)
