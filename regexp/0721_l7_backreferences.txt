@@ -1,0 +1,20 @@
+lESSON #7. Grouping.Feedback.
+
+Example: ta-tu ta-ta tu-tu
+
+\1      (ta|tu)-\1      - Paste value for 1-st pattern
+?:      (?:ta|tu)-\1    - No not save pattern into the memory
+
+
+Grouping turned off feedback (Elements order do the difference)
+
+>      a(?>bc|b)cc     - Turn off returning
+                          `abcc` will not be finded
+
+
+lESSON #8. MODIFIERS
+i    (?i:t.)          - Turn off case sensitivity
+
+s                     - `.` will include  `return` and `carriage return` sym-s
+
+-    (?s-i:t.)        - Turn off modifier

@@ -1,0 +1,7 @@
+# Sort by 1 param
+
+ORDER BY id ASC;
+ORDER BY id ASC nulls last;
+
+
+select * from goods where category = 'cars' ORDER BY price DESC;

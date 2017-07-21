@@ -1,0 +1,9 @@
+https://postgrespro.ru/docs/postgrespro/9.6/queries-limit
+
+offset;
+
+... LIMIT 10 OFFSET 2;
+
+
+Выполните в psql запрос который выбирает из таблицы goods название самого дешевого товара;
+Запишите запрос в файл solution.sql;
