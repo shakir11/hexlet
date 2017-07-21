@@ -1,0 +1,19 @@
+LESSON #9: PROSMOTR VPERED/NAZAD
+
+
+1) PROSMOTR VPERED
+
+  =     Ludovic(?=XVI)      - `Ludovic` w/ pattern `XVI`
+                            - hide next pattern from results
+
+  !     Ludovic(?!XVI)      - `Ludovic` w/o pattern `XVI`
+                            - hide next pattern from results
+
+2) PROSMOTR NAZAD
+
+  <=    (?<=Ludovic)XVI     - `Ludovic` w/ pattern `XVI`
+                            - hide first pattern from results
+
+
+  <!    (?<!Ludovic)XVI     - all `Ludovic` w/o pattern `XVI`
+                            - hide first pattern from results
