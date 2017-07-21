@@ -1,0 +1,10 @@
+КВАНТИФИКАЦИЯ
+color colour colouur colouuur
+
+
+- colou?r     - if `u` included 0 or 1 time
+- colou+r     - if `u` included 1 or more times
+- colou*r     - if `u` included 0 or more times
+- colou{2}r   - if `u` included 2 times
+- colou{2,3}r - if `u` included from 2 to 3 times
+- colou{2,}r  - if `u` included 2 or more times

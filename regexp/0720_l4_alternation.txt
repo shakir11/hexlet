@@ -1,0 +1,7 @@
+gray grow grey
+
+- grouping:
+    g(ra|re)y
+
+- class of symbols
+    gr[ae]y

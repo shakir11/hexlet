@@ -1,0 +1,4 @@
+SELECT *
+FROM TableA A
+LEFT JOIN TableB B
+ON A.Key = B.Key
