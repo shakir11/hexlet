@@ -18,12 +18,16 @@ INSERT INTO products (name) values (
   'walk'
 );
 
-INSERT INTO products (name, active) values
-('airbus_2', FALSE),
-('electrobus_2', FALSE);
+INSERT INTO products (name, price) values
+('car', 15),
+('bus', 30);
 
--- UPDATE products SET price = price * 2 WHERE name LIKE '%el%';
--- -- delete FROM products WHERE id = 7;
+UPDATE products SET price = price * 2 WHERE name LIKE '%el%';
+-- delete FROM products WHERE id = 7;
+
+
+UPDATE products SET price = (id + 10);
+-- delete FROM products WHERE id = 7;
 
 SELECT * FROM products
 -- WHERE name LIKE '%el%';
