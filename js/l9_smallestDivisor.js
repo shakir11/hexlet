@@ -1,13 +1,13 @@
 const smallestDivisor = (num) => {
-  const iter = (num, divisor) => {
+  const iter = (divisor) => {
     if ( (num % divisor) === 0 ) {
       return divisor;
     } else if (Math.pow(divisor, 2) >= num) {
       return num;
     } else {
-      return iter(num, (divisor + 1));
+      return iter(divisor + 1);
     }
   }
-  return iter(num, 2);
+  return iter(2);
 }
 console.log( smallestDivisor(121) );
