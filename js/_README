@@ -1,0 +1,8 @@
+Visualize JavaScript code execution:
+http://pythontutor.com/javascript.html#mode=edit
+
+Configuring Atom editor with ESLint and the AirBnB style guide rules:
+http://www.acuriousanimal.com/2016/08/14/configuring-atom-with-eslint.html
+
+Configuring babel-cli:
+https://stackoverflow.com/questions/34483748/running-babel-cli-from-npm-script-not-working
