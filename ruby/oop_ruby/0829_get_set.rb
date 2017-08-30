@@ -1,3 +1,4 @@
+# https://habrahabr.ru/post/48756/
 require 'pry'
 class Dog
   def set_name ( aName )
@@ -11,7 +12,5 @@ end
 
 dog1 = Dog.new
 dog1.set_name('Rex')
-dog1.get_name
-binding.pry
-
-p "Helllo"
+# binding.pry
+p "get name:    #{dog1.get_name}"
