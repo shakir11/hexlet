@@ -6,3 +6,28 @@ http://www.acuriousanimal.com/2016/08/14/configuring-atom-with-eslint.html
 
 Configuring babel-cli:
 https://stackoverflow.com/questions/34483748/running-babel-cli-from-npm-script-not-working
+
+
+Hexlet:
+# How to run tests:
+$ make test  // see script in Makefile
+
+# How to run js code:
+$ babel-node solution.js.
+
+
+<< Installing js project>>
+1. Install node.js
+  // npm package manager was installed automatically
+      * to control dependencies,
+      * to create libraries
+2. install packages:
+2.1. Global installation:
+  $ nmp install -g eslint babel
+  Running:
+  $ eslint main.js
+  $ babel-node main.js
+2.2. Local installation:
+  $
+
+  
